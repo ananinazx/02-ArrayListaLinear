@@ -16,6 +16,8 @@ void buscarElemento();
 const int MAX = 5;
 int lista[MAX]{};
 int nElementos = 0;
+bool encontrado = false;
+int nBusca = 0;
 
 
 int main()
@@ -99,11 +101,5 @@ void inserirElemento()
 	else {
 		cout << "Lista cheia";
 	}
-
-}
-
-// deve ser implementada como resposta ao exercicio
-void buscarElemento()
-{
 
 }
